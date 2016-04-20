@@ -48,7 +48,7 @@ class SpiralMatrix
             }
             else if (way == 'u')
             {
-                spiralMatrix[l, r] = i + 1;
+                spiralMatrix[l, r] = i + 1;//insert c#
                 l--;
                 if (l == borderU)
                 {

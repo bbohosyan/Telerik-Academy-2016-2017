@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+	<link rel="stylesheet" href="styles/style.css"/>
+  <style media="screen">
+  .number{
+    color: red;
+  }
+  #result
+{
+  color: red;
+text-align: right;
+padding: 9px;
+font-size: larger;
+}
+
+#button_zero
+{
+  color: red;
+padding: 0 19.5px;
+}
+
+#button_minus, #button_divide, #button_decimal_point, #button_times
+{
+  color: red;
+width: 23px;
+}
+  </style>
+</head>
+<body>
+	<form>
+		<textarea name="result" id="result" cols="7" rows="1">123</textarea> <br/>
+		<input type="button" value="1" class="number"/>
+		<input type="button" value="2" class="number"/>
+		<input type="button" value="3" class="number"/>
+		<input type="button" value="+" class="number"/> <br/>
+		<input type="button" value="4" class="number"/>
+		<input type="button" value="5" class="number"/>
+		<input type="button" value="6" class="number"/>
+		<input type="button" value="-" id="button_minus"/> <br/>
+		<input type="button" value="7" class="number"/>
+		<input type="button" value="8" class="number"/>
+		<input type="button" value="9" class="number"/>
+		<input type="button" value="*" id="button_times"/> <br/>
+		<input type="button" value="0" id="button_zero"/>
+		<input type="button" value="." id="button_decimal_point"/>
+		<input type="button" value="/" id="button_divide"/>
+	</form>
+</body>
+</html>

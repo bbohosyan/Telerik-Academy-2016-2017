@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace TelerikPractise
 {
+    using System;
+    using System.Numerics;
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             BigInteger result1 = 1;
             BigInteger result2 = 1;
@@ -18,8 +14,7 @@ namespace TelerikPractise
             {
                 string inputText = Console.ReadLine();
                 BigInteger number;
-                bool isInt = BigInteger.TryParse(inputText, out number);
-                if (isInt == true)
+                if (inputText!="END")
                 {
                     number = BigInteger.Parse(inputText);
                 }

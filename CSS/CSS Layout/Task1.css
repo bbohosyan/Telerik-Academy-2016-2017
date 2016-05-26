@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    font-size: 22px;
+}
+
+div{
+    background-color: #FFFFFF;
+    width: 230px;
+    height: 300px;
+    margin: 300px 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul ul {
+    display: none;
+}
+
+ul ul li a {
+    color: #888888;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
